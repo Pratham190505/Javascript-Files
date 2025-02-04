@@ -25,13 +25,26 @@
 // }
 
 //usecase of continue statement
-for(let i = 1; i <= 20; i++)
-    {
-        if(i == 5)
-        {
-            console.log("5 detected");
-            continue;
-        }
-        console.log(`Value of i is ${i}`);
-    }
+// for(let i = 1; i <= 20; i++)
+//     {
+//         if(i == 5)
+//         {
+//             console.log("5 detected");
+//             continue;
+//         }
+//         console.log(`Value of i is ${i}`);
+//     }
     
+// const myArray = ['Virat', 'Rohit', 'Bumrah'];
+// let i = 0;
+// while(i < myArray.length)
+// {
+//     console.log(`Value is ${myArray[i]}`);
+//     i++;
+// }
+
+let score  = 11;
+do{
+    console.log(`Value is ${score}`);
+    score++;
+}while(score<=10);
